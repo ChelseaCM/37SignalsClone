@@ -1,0 +1,152 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+    header {
+    	margin-top: 20px;}
+
+    span {
+      position: absolute;
+      left: 55px;
+    	color: #999;
+    	font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    	text-decoration: none;
+      padding-top: 5px;
+    }
+    nav a{
+    	display:inline;
+    	float: right;
+    	color: #336699;
+    	font: 12px 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    	text-decoration: none;
+    	padding: 0 15px;
+    }
+    #content{
+      margin-top: 25px;
+      margin-left:auto;
+      margin-right:auto;
+      text-align: center;
+      width: 825px;
+    	color: #232323;
+    	font: 58px "CrimsonSemibold", 'Times New Roman', Georgia, serif;
+      padding-top: 30px;
+    }
+    body h1{
+      font-weight: 500;
+      font-family: "CrimsonSemibold", "Times New Roman", Georgia, serif;
+      letter-spacing: -2px;
+      width: 825px;
+      line-height: 1.0em;
+    }
+    body .altheader{
+      height:156px;
+      font-size: 46px;
+      letter-spacing: -1px;
+      display: none;
+      margin-bottom: 10px;
+    }
+    body p{
+      font-size: 20px;
+      line-height: 1.5em;
+      font-weight: 500;
+      letter-spacing: normal;
+      margin:10px;
+    }
+    body .altheader p {
+      font-size:15px;
+      line-height: 1.4em;
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    }
+    body #content div a{
+      position: relative;
+      display: inline-block;
+      width:160px;
+      border:1px solid #e8e8e8;
+      border-radius: 5px;
+      background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#efefef));
+      text-decoration: none;
+      padding: 20px 10px 10px 10px;
+      margin: 15px;
+    }
+    
+    #content div a dl {
+      font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+      color: black;
+      font-size: 14px;
+    }
+    #content div a dt {
+      text-decoration: underline;
+      color: #369;
+      font-size:21px;
+      font-weight: bold;
+    }
+    #content div a dd {
+      margin: 10px 0;
+      color: red;
+      font-size: 14px;
+    
+    }
+    .arrowleft {
+      position: absolute;
+      top: -30px;
+      display:none;
+    }
+    .arrowright {
+      position: absolute;
+      top: -30px;
+      left:-15px;
+      display: none;
+    }
+    .asterisks {
+      width: 72px;
+      height:12px;
+      background: url(images/img-hr.png);
+      margin: 30px auto;
+  }
